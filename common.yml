@@ -1,0 +1,6 @@
+---
+
+- name: Install common packages
+  hosts: '{{ hosts }}'
+  roles:
+     - { role: common, become: true }
