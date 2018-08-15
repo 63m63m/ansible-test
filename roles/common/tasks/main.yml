@@ -1,0 +1,66 @@
+---
+
+- name: Install common packages
+  package:
+    name: "{{ item }}"
+    state: latest
+    update_cache: yes
+  with_items:
+#    - afuse
+#    - aptitude
+#    - axel
+#    - build-essential
+#    - bzip2
+#    - colortest
+    - curl
+#    - diffutils
+#    - dos2unix
+#    - fdupes
+#    - ftp-ssl
+#    - gawk
+#    - gcc
+    - git
+#    - grep
+#    - gzip
+    - htop
+#    - httping
+#    - iftop
+#    - imagemagick
+#    - iotop
+    - iptables-persistent
+#    - less
+    - lsof
+#    - lftp
+    - logrotate
+#    - make
+    - mc
+#    - nano
+    - ncdu
+    - netfilter-persistent
+    - net-tools
+#    - nfs-common
+#    - nmap
+    - nmon
+#    - openssl
+#    - p7zip
+#    - pv
+#    - pwgen
+#    - ranger
+#    - rar
+    - rsyslog
+    - rsync
+    - screen
+#    - smbclient
+#    - software-properties-common
+#    - sshfs
+#    - sshpass
+#    - tar
+    - tcpdump
+    - tmux
+#    - trash-cli
+#    - tig
+#    - unzip
+    - vim
+    - wget
+#    - whois
+#    - zip
